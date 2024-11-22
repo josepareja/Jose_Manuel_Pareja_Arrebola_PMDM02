@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Este archivo XML define una interfaz para mostrar las características de un personaje en la aplicación. La interfaz es desplazable (ScrollView) y contiene una imagen, el nombre, la descripción, las habilidades y un botón para regresar.
+-->
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white">
+    <!-- LinearLayout vertical que contiene todos los elementos -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <!--Imagen del personaje-->
+        <ImageView
+            android:id="@+id/caracteristicas_imagen"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:scaleType="centerCrop"
+            android:layout_gravity="center" />
+
+        <!--Nombre del personaje-->
+        <TextView
+            style="@style/TituloPersonaje"
+            android:id="@+id/caracteristicas_nombre"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:paddingTop="16dp" />
+
+        <!--Descripción del personaje -->
+        <TextView
+            style="@style/TextoDescripcion"
+            android:id="@+id/caracteristicas_descripcion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="8dp" />
+
+        <!-- Habilidades o características del personaje -->
+        <TextView
+            style="@style/TextoDescripcion"
+            android:id="@+id/caracteristicas_personaje"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="8dp" />
+
+        <!-- Botón "Atrás" -->
+        <Button
+            style="@style/boton"
+            android:id="@+id/btn_atras"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/atras" />
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Este archivo XML define el diseño de la actividad principal, que utiliza un CoordinatorLayout como contenedor principal.
+El diseño incluye una AppBarLayout con una Toolbar y un layout de contenido principal.
+-->
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <!--
+      AppBarLayout se utiliza para envolver la barra de herramientas (Toolbar) y otros elementos de la barra superior de la actividad.
+      -->
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/Theme.ProyectoJoseParejaArrebola.AppBarOverlay">
+        <!--
+              La Toolbar es un componente que actúa como la barra de herramientas de la aplicación, donde se suelen colocar las acciones del usuario.
+              -->
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:popupTheme="@style/Theme.ProyectoJoseParejaArrebola.PopupOverlay" />
+
+    </com.google.android.material.appbar.AppBarLayout>
+    <!--
+      El <include> inserta el layout content_main que contiene el contenido principal de la actividad.
+      -->
+    <include layout="@layout/content_main" />
+
+
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

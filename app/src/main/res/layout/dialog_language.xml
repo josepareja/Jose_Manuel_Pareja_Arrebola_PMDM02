@@ -1,0 +1,21 @@
+<!--
+Este archivo XML define un diseño de interfaz que incluye un LinearLayout con un TextView que
+indica la opción de cambiar el idioma y un Switch que permite al usuario seleccionar entre inglés y español.
+-->
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+    <!-- TextView que describe la acción del cambio de idioma -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cambiar a Inglés/Español" />
+    <!-- Switch que permite al usuario seleccionar entre los idiomas disponibles -->
+    <Switch
+        android:id="@+id/language_switch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+</LinearLayout>

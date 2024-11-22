@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Este archivo XML define una interfaz simple que contiene un Switch para cambiar el idioma en una aplicación Android.
+El diseño utiliza un LinearLayout para organizar los elementos de forma vertical y con un padding uniforme alrededor.
+-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Switch para cambiar el idioma -->
+    <Switch
+        android:id="@+id/nav_idioma"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cambiar Idioma" />
+
+</LinearLayout>

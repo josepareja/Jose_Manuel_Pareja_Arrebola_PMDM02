@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <!-- Opción de Home -->
+        <item
+            android:id="@+id/nav_inicio"
+            android:title="@string/home" />
+
+        <!-- Opción de Ajustes con submenú para Idioma -->
+        <item
+            android:id="@+id/nav_ajustes"
+            android:title="@string/ajustes">
+            <menu>
+                <item
+                    android:id="@+id/nav_idioma"
+                    android:title="@string/idioma" />
+            </menu>
+        </item>
+    </group>
+</menu>

@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">ProyectoJoseParejaArrebola</string>
+    <string name="navigation_drawer_open">Abrir menú drawer</string>
+    <string name="navigation_drawer_close">Cerrar menú drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Ajustes</string>
+
+    <string name="menu_home">Inicio</string>
+    <string name="menu_gallery">Galería</string>
+    <string name="menu_slideshow">Presentación de diapositivas</string>
+
+    <string name="acerca_de">Acerca de...</string>
+    <string name="desarrollador">Aplicación desarrollada por José Manuel Pareja Arrebola. Versión 1.0.</string>
+    <string name="ok">Aceptar</string>
+    <string name="mario">Mario</string>
+    <string name="luigi">Luigi</string>
+    <string name="peach">Peach</string>
+    <string name="toad">Toad</string>
+    <string name="atras">Atrás</string>
+    <string name="vale">Vale</string>
+    <string name="personajes_super_mario_bros">Personajes Super Mario Bros</string>
+    <string name="descripcion_mario">Héroe del Reino Champiñón</string>
+    <string name="habilidades_mario">Salta alto, Lanza fuego</string>
+    <string name="descripcion_luigi">Hermano de Mario</string>
+    <string name="habilidades_luigi">Salta alto, Muy rápido</string>
+    <string name="descripcion_peach">Princesa del Reino, Champiñón</string>
+    <string name="habilidades_peach">Flota en el aire, Desciende lentamente en el aire</string>
+    <string name="descripcion_toad">Sirviente leal de Peach</string>
+    <string name="habilidades_toad">Salta alto, Fuerza</string>
+    <string name="snackbar_bienvenidos">Bienvenidos al mundo de Mario</string>
+    <string name="toastMensaje">Se ha seleccionado el personaje %1$s</string>
+    <string name="open_drawer">Abrir Drawer</string>
+    <string name="close_drawer">Cerrar Drawer</string>
+    <string name="home">Inicio</string>
+    <string name="ajustes">Ajustes</string>
+    <string name="idioma">Idioma</string>
+</resources>
